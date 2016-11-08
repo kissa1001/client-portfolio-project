@@ -2,19 +2,19 @@ var app = angular.module('lydia-portfolio',['ngRoute','ngAnimate'])
 .config(['$routeProvider', function($routeProvider){
   $routeProvider
   .when('/', {
-    templateUrl: '../views/home.html',
+    templateUrl: 'views/home.html',
     controller: 'HomeCtrl'
   })
   .when('/services', {
-    templateUrl:'../views/services.html',
+    templateUrl:'views/services.html',
     controller: 'ServicesCtrl'
   })
   .when('/about', {
-    templateUrl:'../views/about.html',
+    templateUrl:'views/about.html',
     controller: 'AboutCtrl'
   })
   .when('/contact', {
-    templateUrl:'../views/contact.html',
+    templateUrl:'views/contact.html',
     controller: 'ContactCtrl'
   })
   .when('/error', {
