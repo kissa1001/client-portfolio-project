@@ -75,7 +75,7 @@ body h1{
 }
 #intro-text{
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 2.5em;
+  font-size: 2.7em;
   color: #fff;
 }
 .white-button{
@@ -101,29 +101,16 @@ body h1{
   transform: translateY(10%);
 }
 #get-quote{
-  margin-top: 5.5em;
+  margin-top: 5em;
 }
-.blockquote{
+.quote{
+  font-family: 'Josefin Sans', sans-serif;
   color: #fff;
-  margin-top: 3em;
-  max-width: 600px;
-  font-size: 1.1em;
-  margin-left: auto;
-  margin-right: auto;
-  border-left: 10px solid #fff;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  margin-top: 1.8em;
+  font-size: 2em;
 }
-.blockquote:before {
-  color: #fff;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-.blockquote p {
-  display: inline;
+.line-through{
+  text-decoration: line-through;
 }
 .main-black{
   background: #000;
