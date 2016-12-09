@@ -3,7 +3,6 @@ body{
   padding-top: 0;
   /*font-family: 'Josefin Sans', sans-serif;*/
   font-family: 'Playfair Display', serif;
-  overflow: hidden;
 }
 .hr-small1{
 	border: 0;
@@ -78,15 +77,21 @@ body h1{
   font-size: 2.7em;
   color: #fff;
 }
+.button{
+    padding: 1em 2em 1em 2em;
+    background: transparent;
+    font-size: 1.2em;
+}
 .white-button{
   border: 2px solid #fff;
-  padding: 1em 2em 1em 2em;
-  margin-top: 3em;
-  background: transparent;
-  font-size: 1.2em;
   color: #fff;
 }
-.white-button:hover{
+.black-button{
+    border: 2px solid #000;
+    color: #000;
+    margin-top: 1.5em;
+}
+.button:hover{
   background-color: transparent;
   border:1px solid #58C9B9;
   color:#58C9B9;
@@ -121,10 +126,10 @@ body h1{
   background: #fff;
 }
 .main-about{
-  padding-top: 3em;
+  padding-top: 5em;
   margin-right: auto;
   margin-left: auto;
-  max-width: 800px;
+  max-width: 900px;
 }
 .main-about p{
   font-size: 1.2em;
@@ -135,6 +140,7 @@ body h1{
 .text-box{
   padding-left: 1.5em;
 }
+
 /***Contact styling***/
 
 .btn-submit{
