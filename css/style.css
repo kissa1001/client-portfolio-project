@@ -94,14 +94,9 @@ body h1{
 #about-btn {
     margin-top: 0.2em;
 }
-#about-btn a{
-    color: #000;
-}
-#about-btn a:hover{
-    text-decoration: none;
-}
 .button:hover{
   background-color: transparent;
+  text-decoration: none;
   border:1px solid #58C9B9;
   color:#58C9B9;
   -webkit-transition: 1s;
